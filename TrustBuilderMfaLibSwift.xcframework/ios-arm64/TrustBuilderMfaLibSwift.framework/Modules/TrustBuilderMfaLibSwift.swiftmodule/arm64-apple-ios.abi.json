@@ -94101,6 +94101,140 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "SessionTokenCacheService",
+        "printedName": "SessionTokenCacheService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "get",
+            "printedName": "get(tknAlias:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23TrustBuilderMfaLibSwift24SessionTokenCacheServiceC3get8tknAliasSSSgSS_tF",
+            "mangledName": "$s23TrustBuilderMfaLibSwift24SessionTokenCacheServiceC3get8tknAliasSSSgSS_tF",
+            "moduleName": "TrustBuilderMfaLibSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "put",
+            "printedName": "put(tknAlias:token:expMillis:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23TrustBuilderMfaLibSwift24SessionTokenCacheServiceC3put8tknAlias5token9expMillisySS_SSSitF",
+            "mangledName": "$s23TrustBuilderMfaLibSwift24SessionTokenCacheServiceC3put8tknAlias5token9expMillisySS_SSSitF",
+            "moduleName": "TrustBuilderMfaLibSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clear",
+            "printedName": "clear()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:23TrustBuilderMfaLibSwift24SessionTokenCacheServiceC5clearyyF",
+            "mangledName": "$s23TrustBuilderMfaLibSwift24SessionTokenCacheServiceC5clearyyF",
+            "moduleName": "TrustBuilderMfaLibSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:23TrustBuilderMfaLibSwift24SessionTokenCacheServiceC",
+        "mangledName": "$s23TrustBuilderMfaLibSwift24SessionTokenCacheServiceC",
+        "moduleName": "TrustBuilderMfaLibSwift",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "TrustBuilderMfaLibSwift",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "UpdatableHostInfo",
         "printedName": "UpdatableHostInfo",
         "children": [
@@ -162029,6 +162163,20 @@
       "offset": 344,
       "length": 8,
       "value": "\"tb_tkn\""
+    },
+    {
+      "filePath": "\/Users\/jimmyvisse\/Documents\/SDK\/nemo-generator-lib-swift\/TrustBuilderMfaLibSwift\/TrustBuilderMfaLibSwift\/Trustbuilder.mfa.ClientLib\/Application\/SessionTokenCacheService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 235,
+      "length": 5,
+      "value": "60000"
+    },
+    {
+      "filePath": "\/Users\/jimmyvisse\/Documents\/SDK\/nemo-generator-lib-swift\/TrustBuilderMfaLibSwift\/TrustBuilderMfaLibSwift\/Trustbuilder.mfa.ClientLib\/Application\/SessionTokenCacheService.swift",
+      "kind": "Dictionary",
+      "offset": 302,
+      "length": 3,
+      "value": "[]"
     },
     {
       "filePath": "\/Users\/jimmyvisse\/Documents\/SDK\/nemo-generator-lib-swift\/TrustBuilderMfaLibSwift\/TrustBuilderMfaLibSwift\/Trustbuilder.mfa.ClientLib\/Definition\/SecureTokenParameters.swift",

@@ -2769,6 +2769,12 @@ public enum KeyFormat : Swift.String, Swift.Codable, Swift.RawRepresentable {
     get
   }
 }
+@_hasMissingDesignatedInitializers public class SessionTokenCacheService {
+  public func get(tknAlias: Swift.String) -> Swift.String?
+  public func put(tknAlias: Swift.String, token: Swift.String, expMillis: Swift.Int)
+  public func clear()
+  @objc deinit
+}
 public struct UpdatableHostInfo : Swift.Encodable {
   public var osVersion: Swift.String
   public var libVersion: Swift.String
